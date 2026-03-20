@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.Bljw9wMQ.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"document/pack.md","filePath":"document/pack.md","lastUpdated":1773994533000}'),c={name:"document/pack.md"};function o(n,r,s,p,d,m){return t(),a("div")}const f=e(c,[["render",o]]);export{i as __pageData,f as default};

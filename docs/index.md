@@ -1,0 +1,57 @@
+---
+layout: home
+
+hero:
+  name: "ZXManage"
+  text: "程序员的项目管家"
+  tagline: 集“项目管理、Git管理、代码打包、笔记管理”于一体的桌面端利器。
+  image:
+    src: /ip.png
+    alt: ZXManage 软件界面
+  actions:
+    - theme: brand
+      text: github下载
+      link: https://github.com/Summery-xm/ZXManage-download/releases/download/v1.0.0/ZXMange-1.0.0-x64-Setup.exe
+    - theme: brand
+      text: 夸克网盘下载
+      link: https://pan.quark.cn/s/c355a409ab06#/list/share
+    - theme: alt
+      text: 使用文档
+      link: https://gitee.com/你的用户名/你的仓库
+
+# 使用自定义锚点 {#my-anchor}
+features:
+  # --- 第一行：核心管理 ---
+  - icon: 📦
+    title: 多技术栈统一管理
+    details: 无缝兼容 Vue、React、Uni-app、Java、微信小程序、PHP、Node、Cocos 等主流技术栈项目。
+  - icon: 🚀
+    title: 灵活的项目初始化
+    details: 支持从零新建（可选模板或空项目）与外部导入。本地直接导入，或通过 Git URL 克隆导入。
+  - icon: 🔄
+    title: 简易 Git 可视化管理
+    details: 内置轻量级 Git 图形界面，支持提交、拉取、推送及分支管理，无需记忆复杂命令。
+
+  # --- 第二行：构建与部署 ---
+  - icon: 🛠️
+    title: 内置构建与打包
+    details: 针对 Vue、React、Node 项目提供一键打包功能，无需繁琐的命令行操作，构建结果一目了然。
+  - icon: 🌐
+    title: 本地 Nginx 一键部署
+    details: 独家支持将打包后的前端/Node项目一键托管至本地 Nginx，快速生成预览链接，联调演示更高效。
+  - icon: ☁️
+    title: 产物直传服务器
+    details: 支持将打包后的产物直接提交至远程服务器，无需额外连接 FTP/SFTP 工具，实现真正的“打包即发布”。
+
+  # --- 第三行：辅助工具 ---
+  - icon: 📝
+    title: 项目级笔记与文档
+    details: 为每个项目配备独立的笔记功能，记录 API 文档、开发思路或 Bug 列表，知识沉淀不丢失。
+  - icon: 🗂️
+    title: 文件与代码管理
+    details: 内置轻量级文件管理器，快速浏览项目结构；集成基础代码查看功能，无需切换 IDE。
+  - icon: 🔗
+    title: Git 项目快速导入
+    details: 支持通过 Git 地址直接克隆项目到本地工作区，省去手动下载解压的繁琐步骤。
+---
+
