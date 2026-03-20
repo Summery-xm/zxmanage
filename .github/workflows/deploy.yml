@@ -1,4 +1,4 @@
-name: Deploy VitePress to GitHub Pages
+name: 部署ZXMange官网
 
 on:
   push:
