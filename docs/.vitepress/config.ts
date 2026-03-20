@@ -8,6 +8,8 @@ export default defineConfig({
   lang:'zh-CN',
   base:'/zxmanage/',
 
+
+
   // --- 最后更新时间 (SEO 加分项) ---
   lastUpdated: true,
 
