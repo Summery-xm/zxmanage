@@ -7,8 +7,6 @@ export default defineConfig({
   description: 'ZXManager 是一款基于 Electron+React 开发的桌面端项目管理软件。支持 Vue, React, Java, 小程序, Node.js 等多语言项目的可视化管理和一键打包部署，内置 Git 管理与 Nginx 本地部署功能。',
   lang:'zh-CN',
   base:'/zxmanage/',
-  
-
 
 
   // --- 最后更新时间 (SEO 加分项) ---
@@ -106,5 +104,5 @@ export default defineConfig({
     hostname: 'https://your-domain.com' , // 必须替换为你的真实域名
     lastmodDateOnly: false
   },
-  cleanUrls: true,
+  cleanUrls: false,
 });
