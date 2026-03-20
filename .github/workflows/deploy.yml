@@ -1,4 +1,4 @@
-name: Deploy VitePress to GitHub Pages
+name: 部署ZXMange官网
 
 on:
   push:
@@ -17,6 +17,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true  # 强制用 Node24，消除警告
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,14 +27,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 24
-          cache: npm
 
       - name: Install dependencies
         run: npm install
 
       - name: Build VitePress
         run: npm run docs:build
-        
+
       - name: Rename dist to _site
         run: mv docs/.vitepress/dist _site
 
@@ -45,7 +46,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
