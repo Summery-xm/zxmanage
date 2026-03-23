@@ -14,7 +14,7 @@ hero:
       link: https://github.com/Summery-xm/zxmanage/releases/download/v1.0.0/ZXManage-1.0.0-x64-Setup.exe
     - theme: brand
       text: 夸克网盘下载
-      link: https://pan.quark.cn/s/ca9e7aa9c0ae
+      link: https://pan.quark.cn/s/9a0de1aed236
     - theme: alt
       text: 使用文档
       link: http://localhost:8002/zxmanage/document/
