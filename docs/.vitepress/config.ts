@@ -110,5 +110,5 @@ export default defineConfig({
     hostname: 'https://summery-xm.github.io/zxmanage/' ,
     lastmodDateOnly: false
   },
-  cleanUrls: true,
+  cleanUrls: false,
 });
