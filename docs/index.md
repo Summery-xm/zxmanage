@@ -17,7 +17,7 @@ hero:
       link: https://pan.quark.cn/s/9a0de1aed236
     - theme: alt
       text: 使用文档
-      link: http://localhost:8002/zxmanage/document/
+      link: /document
 
 features:
   # --- 第一行：核心管理（原有）---
