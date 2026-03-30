@@ -67,7 +67,7 @@ export default defineConfig({
       { text: '功能介绍', link: '/document/', activeMatch: '/document/' },
       { text: '更新日志', link: '/updateLog' },
       { text: '开发计划', link: '/plan' },
-      { text: '下载软件', link: 'https://github.com/Summery-xm/zxmanage/releases/download/v1.0.0/ZXManage-1.0.0-x64-Setup.exe' },
+      { text: '下载软件', link: 'https://github.com/Summery-xm/zxmanage/releases/download/lastest/ZXManage-x64-Setup.exe' },
       { text: '联系我们', link: 'https://qm.qq.com/q/7A3qlIPxCw'}
     ],
     sidebar: {

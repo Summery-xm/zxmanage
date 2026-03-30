@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: github下载
-      link: https://github.com/Summery-xm/zxmanage/releases/download/v1.0.0/ZXManage-1.0.0-x64-Setup.exe
+      link: https://github.com/Summery-xm/zxmanage/releases/download/lastest/ZXManage-x64-Setup.exe
     - theme: brand
       text: 夸克网盘下载
       link: https://pan.quark.cn/s/9a0de1aed236
